@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/offender/.*/viper"
+  },
+  "response": {
+    "status": 401,
+    "bodyFileName": "unauthorized-viper.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

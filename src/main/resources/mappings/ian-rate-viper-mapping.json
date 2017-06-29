@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/offender/I9876RA/viper",
+    "headers": {
+      "Ocp-Apim-Subscription-Key": {
+        "equalTo": "valid-subscription-key"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "ian-rate-viper.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

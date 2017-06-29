@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '2.0.1'
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = "com.github.tomakehurst.wiremock.standalone.WireMockServerRunner"
+
+sourceCompatibility = 1.8
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.github.tomakehurst:wiremock-standalone:2.6.0'
+}
+
+run {
+    args '--root-dir=src/main/resources --port=9090'.split()
+}
