@@ -22,3 +22,7 @@ dependencies {
 run {
     args '--root-dir=src/main/resources --port=9090'.split()
 }
+
+// For Heroku deployment
+task stage(dependsOn: ['build', 'clean'])
+build.mustRunAfter clean
