@@ -10,7 +10,7 @@
   },
   "response": {
     "status": 200,
-    "body": "{'nomsId': 'R6524MO', 'viperRating: 0.50}",
+    "body": "{'nomsId': 'R6524MO', 'viperRating': 0.50}",
     "headers": {
       "Content-Type": "application/json"
     }
