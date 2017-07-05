@@ -4,8 +4,8 @@
     "urlPattern": "/offender/.*/viper"
   },
   "response": {
-    "status": 401,
-    "bodyFileName": "unauthorized-viper.json",
+    "status": 404,
+    "bodyFileName": "not-found-viper.json",
     "headers": {
       "Content-Type": "application/json"
     }
