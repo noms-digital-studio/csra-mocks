@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/offender/.*/viper"
+    "urlPattern": "/analytics/viper/.*"
   },
   "response": {
     "status": 404,

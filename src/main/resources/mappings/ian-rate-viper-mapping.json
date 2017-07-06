@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/offender/I9876RA/viper",
+    "urlPattern": "/analytics/viper/I9876RA",
     "headers": {
       "API-Key": {
         "equalTo": "valid-subscription-key"
