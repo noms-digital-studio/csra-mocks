@@ -3,7 +3,7 @@
     "method": "GET",
     "urlPattern": "/offender/R6524MO/viper",
     "headers": {
-      "Ocp-Apim-Subscription-Key": {
+      "API-Key": {
         "equalTo": "valid-subscription-key"
       }
     }

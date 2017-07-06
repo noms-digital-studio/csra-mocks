@@ -3,7 +3,7 @@
     "method": "GET",
     "urlPattern": "/health",
     "headers": {
-      "Ocp-Apim-Subscription-Key": {
+      "API-Key": {
         "equalTo": "valid-subscription-key"
       }
     }
