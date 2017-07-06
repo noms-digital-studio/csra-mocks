@@ -1,0 +1,8 @@
+{
+  "healthy": true,
+  "checks.db": "ok",
+  "uptime": "3688.422,",
+  "build.buildNumber": "901",
+  "build.gitRef": "83e46a38509309220da19afa630b5354c56da39b",
+  "version": "0.8.0"
+}
