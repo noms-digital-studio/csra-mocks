@@ -1,4 +1,3 @@
 {
-  "code": "ResourceNotFound",
-  "message": "/offender/XXXXXX/viper does not exist"
+  "message": "Resource Not Found"
 }
