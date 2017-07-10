@@ -16,6 +16,6 @@ curl http://localhost:9090/__admin/
 
 # Example defaults
 ```
-curl -H "Ocp-Apim-Subscription-Key:valid-subscription-key" http://localhost:9090/offender/J1234LO/viper
-curl -H "Ocp-Apim-Subscription-Key:valid-subscription-key" http://localhost:9090/offender/NOTFOUND/viper
+curl -H "API-Key:valid-subscription-key" http://localhost:9090/offender/J1234LO/viper
+curl -H "API-Key:valid-subscription-key" http://localhost:9090/offender/NOTFOUND/viper
 ```
