@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/users/login",
+    "headers": {
+      "Authorization": {
+        "matches": "Bearer ([\\w\\d]+\\.)([\\w\\d]+\\.)([\\w\\d]+)"
+      }
+    },
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"username\": \"NREDSHAW\", \"password\": \"password123456\"}"
+    } ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "sign-in-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
