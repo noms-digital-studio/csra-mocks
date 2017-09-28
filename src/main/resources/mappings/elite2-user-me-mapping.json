@@ -1,19 +1,16 @@
 {
   "request": {
-    "method": "POST",
-    "urlPattern": "/users/login",
+    "method": "GET",
+    "urlPattern": "/elite2api/users/me",
     "headers": {
       "Authorization": {
         "matches": "Bearer ([\\w\\d]+\\.)([\\w\\d]+\\.)([\\w\\d]+)"
       }
-    },
-    "bodyPatterns" : [
-      { "equalToJson" : "{\"username\": \"officer\", \"password\": \"password\"}" }
-    ]
+    }
   },
   "response": {
     "status": 200,
-    "bodyFileName": "sign-in-response.json",
+    "bodyFileName": "user-me-response.json",
     "headers": {
       "Content-Type": "application/json"
     }
