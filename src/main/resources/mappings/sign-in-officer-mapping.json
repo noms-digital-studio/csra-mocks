@@ -7,9 +7,9 @@
         "matches": "Bearer ([\\w\\d]+\\.)([\\w\\d]+\\.)([\\w\\d]+)"
       }
     },
-    "bodyPatterns" : [ {
-      "equalToJson" : "{\"username\": \"NREDSHAW\", \"password\": \"password123456\"}"
-    } ]
+    "bodyPatterns" : [
+      { "equalToJson" : "{\"username\": \"officer\", \"password\": \"password\"}" }
+    ]
   },
   "response": {
     "status": 200,
