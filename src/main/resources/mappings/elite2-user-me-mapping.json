@@ -4,7 +4,7 @@
     "urlPattern": "/elite2api/users/me",
     "headers": {
       "Authorization": {
-        "matches": "Bearer ([\\w\\d-_]+\\.)([\\w\\d-_]+\\.)([\\w\\d-_]+)"
+        "matches": "Bearer ([A-Za-z0-9_-]+\\.)([A-Za-z0-9_-]+\\.)([A-Za-z0-9_-]+)"
       }
     }
   },
