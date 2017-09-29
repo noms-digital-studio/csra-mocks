@@ -1,7 +1,12 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/elite2api/health"
+    "urlPattern": "/elite2api/health",
+    "headers": {
+      "Authorization": {
+        "matches": "Bearer ([\\w\\d-_]+\\.)([\\w\\d-_]+\\.)([\\w\\d-_]+)"
+      }
+    }
   },
   "response": {
     "status": 200
