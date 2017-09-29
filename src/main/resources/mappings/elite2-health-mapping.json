@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/elite2api/health",
+    "urlPattern": "/elite2api/info/health",
     "headers": {
       "Authorization": {
         "matches": "Bearer ([A-Za-z0-9_-]+\\.)([A-Za-z0-9_-]+\\.)([A-Za-z0-9_-]+)"
@@ -9,6 +9,7 @@
     }
   },
   "response": {
-    "status": 200
+    "status": 200,
+    "bodyFileName": "elite2-health.json"
   }
 }

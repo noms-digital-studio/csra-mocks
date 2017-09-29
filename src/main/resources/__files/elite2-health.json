@@ -1,0 +1,14 @@
+{
+  "status": "UP",
+  "diskSpace": {
+    "status": "UP",
+    "total": 10725883904,
+    "free": 10544709632,
+    "threshold": 10485760
+  },
+  "db": {
+    "status": "UP",
+    "database": "Oracle",
+    "hello": "Hello"
+  }
+}
