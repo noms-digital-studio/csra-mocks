@@ -1,3 +1,16 @@
+# Installing Dependencies
+You will need to have JDK (Java SE Development Kit) installed on your system
+[http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+or
+```
+brew cask install java
+```
+
+You will also need Gradle installed on your system
+```
+brew install gradle
+```
+
 # To build and run the fat JAR
 ```
 ./gradlew clean shadowJar
