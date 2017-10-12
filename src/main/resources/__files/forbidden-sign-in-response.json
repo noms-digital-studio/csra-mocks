@@ -1,0 +1,5 @@
+{
+  "status": 401,
+  "userMessage": "Invalid user credentials.",
+  "developerMessage": "Authentication credentials provided are not valid."
+}
