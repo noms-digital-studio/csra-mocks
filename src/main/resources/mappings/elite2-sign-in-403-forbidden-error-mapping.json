@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/elite2api/users/login",
+    "headers": {
+      "Authorization": {
+        "matches": "Bearer ([A-Za-z0-9_-]+\\.)([A-Za-z0-9_-]+\\.)([A-Za-z0-9_-]+)"
+      }
+    },
+    "bodyPatterns" : [
+      { "equalToJson" : "{\"username\": \"officer4\", \"password\": \"password\"}" }
+    ]
+  },
+  "response": {
+    "status": 403,
+    "bodyFileName": "forbidden-sign-in-response.txt"
+  }
+}

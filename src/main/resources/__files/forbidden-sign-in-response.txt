@@ -1,0 +1,1 @@
+JWT token error: Auth token is invalid: Client token is invalid: invalid character '\u007f' looking for beginning of value
