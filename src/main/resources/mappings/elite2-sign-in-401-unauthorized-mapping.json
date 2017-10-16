@@ -8,8 +8,11 @@
       }
     },
     "bodyPatterns" : [
-      { "equalToJson" : "{\"username\": \"officer2\", \"password\": \"password\"}" }
-    ]
+      {
+        "matchesJsonPath" : "$.username"
+      }, {
+        "matchesJsonPath" : "$.password"
+      }]
   },
   "response": {
     "status": 401,
