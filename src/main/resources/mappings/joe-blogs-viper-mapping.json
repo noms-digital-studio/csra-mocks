@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/analytics/viper/J0000BL",
+    "urlPattern": "/analytics/viper/O0000OO",
     "headers": {
       "API-Key": {
         "equalTo": "valid-subscription-key"
@@ -10,7 +10,7 @@
   },
   "response": {
     "status": 200,
-    "body": "{\"nomsId\": \"J0000BL\", \"viperRating\": 0}",
+    "body": "{\"nomsId\": \"O0000OO\", \"viperRating\": 0}",
     "headers": {
       "Content-Type": "application/json"
     }
