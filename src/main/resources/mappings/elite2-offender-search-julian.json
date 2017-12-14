@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/elite2api/search-offenders/_/(A1464AE|vigo|julian)",
+    "headers": {
+      "Authorization": {
+        "matches": "Bearer ([A-Za-z0-9_-]+\\.)([A-Za-z0-9_-]+\\.)([A-Za-z0-9_-]+)"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "offender-search-julian.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

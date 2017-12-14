@@ -1,0 +1,18 @@
+[
+  {
+    "bookingId": 48444,
+    "bookingNo": "A00015",
+    "offenderNo": "A1414AE",
+    "firstName": "LENNIE",
+    "lastName": "GODBER",
+    "dateOfBirth": "1968-03-03",
+    "age": 49,
+    "agencyId": "LEI",
+    "assignedLivingUnitId": 25161,
+    "assignedLivingUnitDesc": "H-2-004",
+    "facialImageId": 4249,
+    "iepLevel": "Standard",
+    "rnum": 1,
+    "recordCount": 1
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "bookingId": 48584,
+    "bookingNo": "A00022",
+    "offenderNo": "A1421AE",
+    "firstName": "JAMES",
+    "lastName": "HERBERT",
+    "dateOfBirth": "1996-01-01",
+    "age": 21,
+    "agencyId": "LEI",
+    "assignedLivingUnitId": 25167,
+    "assignedLivingUnitDesc": "H-2-010",
+    "facialImageId": 4250,
+    "iepLevel": "Standard",
+    "rnum": 1,
+    "recordCount": 1
+  }
+]

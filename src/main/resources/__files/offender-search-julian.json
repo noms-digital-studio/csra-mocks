@@ -1,0 +1,17 @@
+[
+  {
+    "bookingId": 49385,
+    "bookingNo": "A00067",
+    "offenderNo": "A1464AE",
+    "firstName": "JULIAN",
+    "lastName": "VIGO",
+    "dateOfBirth": "1974-05-01",
+    "age": 43,
+    "agencyId": "LEI",
+    "assignedLivingUnitId": 25145,
+    "assignedLivingUnitDesc": "H-1-003",
+    "iepLevel": "Standard",
+    "rnum": 1,
+    "recordCount": 1
+  }
+]
