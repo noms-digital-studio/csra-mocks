@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/elite2api/search-offenders/_/(A1401AE|esmeralada|jenifer)",
+    "urlPattern": "/elite2api/search-offenders/_/(A1401AE|hall|jilly)",
     "headers": {
       "Authorization": {
         "matches": "Bearer ([A-Za-z0-9_-]+\\.)([A-Za-z0-9_-]+\\.)([A-Za-z0-9_-]+)"
@@ -10,7 +10,7 @@
   },
   "response": {
     "status": 200,
-    "bodyFileName": "offender-search-jenifer.json",
+    "bodyFileName": "offender-search-jilly.json",
     "headers": {
       "Content-Type": "application/json"
     }
